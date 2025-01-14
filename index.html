@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cartavio Chatbot</title>
   </head>
   <body>
-    <iframe
-      allow="microphone;"
-      width="350"
-      height="430"
-      src="https://console.dialogflow.com/api-client/demo/embedded/7ce7a5f3-afaa-440c-a5af-ffa58225eab0"
-    >
-    </iframe>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Cartavio"
+      agent-id="7ce7a5f3-afaa-440c-a5af-ffa58225eab0"
+      language-code="es"
+    ></df-messenger>
   </body>
 </html>
